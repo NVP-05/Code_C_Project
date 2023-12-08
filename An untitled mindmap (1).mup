@@ -1,0 +1,335 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Quản lý sinh viên (Sơ đồ cấu trúc)",
+      "id": 1,
+      "attr": {
+        "position": [
+          -18,
+          -146,
+          1
+        ],
+        "style": {
+          "fontMultiplier": 1.25
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Student",
+          "id": 4,
+          "ideas": {
+            "1": {
+              "title": "int id",
+              "id": 6,
+              "ideas": {}
+            },
+            "2": {
+              "title": "char name[50]",
+              "id": 8,
+              "ideas": {}
+            },
+            "3": {
+              "title": "char dob[20]",
+              "id": 11,
+              "ideas": {}
+            },
+            "4": {
+              "title": "char address[50]",
+              "id": 14
+            },
+            "5": {
+              "title": "char phone[12]",
+              "id": 15,
+              "ideas": {}
+            },
+            "6": {
+              "title": "char email[20] ",
+              "id": 17,
+              "ideas": {}
+            },
+            "7": {
+              "title": "bool gender",
+              "id": 23
+            }
+          },
+          "attr": {
+            "position": [
+              333,
+              -274.287474155426,
+              16
+            ]
+          }
+        },
+        "11": {
+          "title": "Class/Course",
+          "id": 24,
+          "attr": {
+            "position": [
+              312,
+              121.53753805160522,
+              19
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "int CourseId ",
+              "id": 25
+            },
+            "2": {
+              "title": "char name[30]",
+              "id": 26
+            },
+            "3": {
+              "title": "int duration",
+              "id": 27
+            },
+            "4": {
+              "title": "struct Instructor teacher",
+              "id": 28
+            },
+            "5": {
+              "title": "struct Student students[30]",
+              "id": 67
+            }
+          }
+        },
+        "21": {
+          "title": "Instructor",
+          "id": 29,
+          "attr": {
+            "position": [
+              351,
+              411.3750319480896,
+              18
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "int instructorId",
+              "id": 30
+            },
+            "2": {
+              "title": "char name[50]",
+              "id": 31,
+              "ideas": {}
+            },
+            "3": {
+              "title": "bool gender",
+              "id": 33
+            },
+            "4": {
+              "title": "char address[50]",
+              "id": 34
+            },
+            "5": {
+              "title": "char phone[12]",
+              "id": 35
+            },
+            "6": {
+              "title": "char email[50]",
+              "id": 36
+            }
+          }
+        },
+        "31": {
+          "title": "Point",
+          "id": 68,
+          "ideas": {
+            "1": {
+              "title": "struct Student student",
+              "id": 69,
+              "attr": {
+                "position": [
+                  68,
+                  -7.374960422515869,
+                  2
+                ]
+              }
+            },
+            "2": {
+              "title": "struct Class class",
+              "id": 70,
+              "attr": {
+                "position": [
+                  97,
+                  45.625070095062256,
+                  1
+                ]
+              }
+            }
+          },
+          "attr": {}
+        },
+        "-1": {
+          "title": "Quản lý sinh viên (Sơ đồ tính năng)",
+          "id": 43,
+          "attr": {
+            "style": {
+              "fontMultiplier": 1.25
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Quản lý đối tượng sinh viên ",
+              "id": 45,
+              "ideas": {
+                "1": {
+                  "title": "1. Hiển thị danh sách sinh viên ",
+                  "id": 46
+                },
+                "2": {
+                  "title": "2. Tìm kiếm thông tin của 1 sinh viên",
+                  "id": 47
+                },
+                "3": {
+                  "title": "3. Thêm mới 1 sinh viên vào trong hệ thống",
+                  "id": 48
+                },
+                "4": {
+                  "title": "4. Chỉnh sửa thông tin sinh viên ",
+                  "id": 49
+                },
+                "5": {
+                  "title": "5. Xóa ( cập nhật trạng thái ) ra trường hay chưa hay vẫn đang còn học",
+                  "id": 50
+                },
+                "6": {
+                  "title": "6. Sắp xếp danh sách sinh viên",
+                  "id": 51
+                }
+              },
+              "attr": {
+                "position": [
+                  171,
+                  -325.3749680519104,
+                  1
+                ]
+              }
+            },
+            "2": {
+              "title": "Quản lý đối tượng giảng viên",
+              "id": 53,
+              "attr": {
+                "position": [
+                  181,
+                  103.32501363754272,
+                  2
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "1. Hiển thị danh sách giảng viên",
+                  "id": 54
+                },
+                "2": {
+                  "title": "2. Tìm kiếm thông tin giảng viên",
+                  "id": 55
+                },
+                "3": {
+                  "title": "3. Thêm mới 1 giảng viên vào hệ thống ",
+                  "id": 56
+                },
+                "4": {
+                  "title": "4. Chỉnh sửa thông tin giảng viên",
+                  "id": 57
+                },
+                "5": {
+                  "title": "5. Xóa giảng viên ra khỏi danh sách",
+                  "id": 58
+                }
+              }
+            },
+            "3": {
+              "title": "Quản lý lớp học",
+              "id": 64,
+              "attr": {
+                "position": [
+                  240,
+                  334.75003957748413,
+                  3
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "1. Hiển thị danh sách lớp",
+                  "id": 66,
+                  "attr": {
+                    "style": {
+                      "width": 164
+                    }
+                  }
+                },
+                "2": {
+                  "title": "3. Thêm lớp học",
+                  "id": 71,
+                  "ideas": {},
+                  "attr": {
+                    "position": [
+                      141,
+                      -7.750030517578125,
+                      8
+                    ]
+                  }
+                },
+                "3": {
+                  "title": "4. Sửa lớp học",
+                  "id": 72,
+                  "ideas": {},
+                  "attr": {}
+                },
+                "4": {
+                  "title": "5. Xóa lớp học",
+                  "id": 73,
+                  "attr": {
+                    "position": [
+                      129,
+                      89,
+                      9
+                    ]
+                  }
+                },
+                "1.5": {
+                  "title": "2. Tìm kiếm lớp học ",
+                  "id": 75,
+                  "attr": {
+                    "position": [
+                      137,
+                      -50.625030517578125,
+                      7
+                    ]
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "Quản lý điểm của sinh viên",
+              "id": 76,
+              "ideas": {
+                "1": {
+                  "title": "1. Hiển thị điểm thi cuối kỳ của sinh viên",
+                  "id": 77
+                },
+                "2": {
+                  "title": "2. Tìm kiếm điểm của 1 sinh viên bất kỳ",
+                  "id": 78
+                },
+                "3": {
+                  "title": "3. Chỉnh sửa điểm của sinh viên bất kỳ",
+                  "id": 80
+                },
+                "4": {
+                  "title": "4. Xóa điểm của sinh viên bất kỳ",
+                  "id": 81
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Quản lý sinh viên (Sơ đồ cấu trúc)",
+  "links": []
+}
